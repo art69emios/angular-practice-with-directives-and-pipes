@@ -1,0 +1,12 @@
+
+<div>
+   <label for="red">red</label>
+   <input (click)="changeColor($event)" type="radio" name="r" id="red">
+   <label for="blue">blue</label>
+   <input (click)="changeColor($event)" type="radio" name="r" id="blue">
+   <label for="gold">gold</label>
+   <input (click)="changeColor($event)" type="radio" name="r" id="gold">
+   <label for="orange">orange</label>
+   <input (click)="changeColor($event)" type="radio" name="r" id="orange">
+</div>
+<p [style.color] = 'textColor' [class.fz]="flag" >newcom2 works!</p>

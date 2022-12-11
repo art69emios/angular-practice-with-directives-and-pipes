@@ -1,0 +1,13 @@
+button{
+   background-color: rgb(66, 77, 11);
+   border: none;
+   padding: 30px 100px;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: antiquewhite;
+   cursor: pointer;
+}
+
+button:hover{
+   background-color: rgb(85, 99, 15);
+}

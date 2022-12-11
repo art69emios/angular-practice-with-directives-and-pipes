@@ -1,0 +1,8 @@
+<div>
+   <ul *ngFor="let i of arrayStr">
+      <li (click)="showText($event)">{{i}}</li>
+   </ul>
+  <div [class.fz]= flag>
+   {{textValue}}
+  </div> 
+</div>
